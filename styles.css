@@ -1,3 +1,27 @@
 body {
   background-color: darksalmon;
 }
+
+.special {
+  border: 2px dotted #efefef;
+}
+
+h1 {
+  height: 100px;
+  width: 90px;
+  background: lightcoral;
+  margin: 20px auto;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+td.special,
+li:hover {
+  background-color: fuchsia;
+  border: 1px solid blue;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
